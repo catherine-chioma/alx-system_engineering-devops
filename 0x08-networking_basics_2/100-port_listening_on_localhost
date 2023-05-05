@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Listen on the port 98 on localhost.
+# Listens on Port 98 on localhost.
 
-While true; do
- nc -l localhost 98
-done
+while true; do
+  nc -l localhost 98
+Done
