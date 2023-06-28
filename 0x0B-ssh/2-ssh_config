@@ -2,7 +2,7 @@
 debug1: Reading configuration data /etc/ssh/ssh_config
 debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
 debug1: /etc/ssh/ssh_config line 21: Applying options for *
-debug1: Connecting to 34.229.189.43 [34.229.189.43] port 22.
+debug1: Connecting to 3.94.213.246 [3.94.213.246] port 22.
 debug1: Connection established.
 debug1: SELinux support disabled
 debug1: identity file /root/.ssh/id_rsa type -1
@@ -22,7 +22,7 @@ debug1: identity file /root/.ssh/id_xmss-cert type -1
 debug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4
 debug1: Remote protocol version 2.0, remote software version OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
 debug1: match: OpenSSH_8.2p1 Ubuntu-4ubuntu0.5 pat OpenSSH* compat 0x04000000
-debug1: Authenticating to 34.229.189.43:22 as 'ubuntu'
+debug1: Authenticating to 3.94.213.246 as 'ubuntu'
 debug1: SSH2_MSG_KEXINIT sent
 debug1: SSH2_MSG_KEXINIT received
 debug1: kex: algorithm: curve25519-sha256
@@ -31,10 +31,10 @@ debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit
 debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
 debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
 debug1: Server host key: ecdsa-sha2-nistp256 SHA256:djGCCGNpKpeuvOZqny5/SN8mwOLjHzLFLFtmIUHj/Ig
-The authenticity of host '34.229.189.43 (34.229.189.43)' can't be established.
+The authenticity of host '3.94.213.246(3.94.213.246)' can't be established.
 ECDSA key fingerprint is SHA256:djGCCGNpKpeuvOZqny5/SN8mwOLjHzLFLFtmIUHj/Ig.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added '34.229.189.43' (ECDSA) to the list of known hosts.
+Warning: Permanently added 3.94.213.246' (ECDSA) to the list of known hosts.
 debug1: rekey out after 134217728 blocks
 debug1: SSH2_MSG_NEWKEYS sent
 debug1: expecting SSH2_MSG_NEWKEYS
@@ -60,4 +60,4 @@ debug1: Trying private key: /root/.ssh/id_ed25519
 debug1: Trying private key: /root/.ssh/id_ed25519_sk
 debug1: Trying private key: /root/.ssh/id_xmss
 debug1: No more authentication methods to try.
-ubuntu@34.229.189.43: Permission denied (publickey)
+ubuntu@3.94.213.246: Permission denied (publickey)
